@@ -1,0 +1,315 @@
+/*-------- Header Start --------*/
+#header {
+    border-radius: 0;
+    border: 0;
+    background-image: url("../image/background.png");
+    background-position: center;
+    background-size: cover;
+}
+.logo {
+    margin-top: 20px;
+    width: 300px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 50px;
+}
+.menu-bar{
+    text-align: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-left: 40%;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #000000;
+}
+.menu-bar ul li{
+    width: 80px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.menu-bar ul li:hover{
+    transform: scale(1.3);
+    text-shadow: 2px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+h1{
+    font-size: 34px;
+    font-family: serif;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0;
+}
+.common-btn{
+    padding: 18px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+.header-text button{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.line-1{
+    width: 15px;
+    height: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line-3{
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line{
+    line-height: 8px;
+}
+/*----------------*/
+/*-------- sidebar --------*/
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #00b3ee;
+    z-index: 2;
+    transition: .5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 30px 20px;
+}
+nav ul li a{
+    color: #000000;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    text-transform: none;
+    color: #ffd420;
+}
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/*-------- Header end --------*/
+/*----------------*//*----------------*//*----------------*/
+/*----------------*//*----------------*//*----------------*/
+/*-------- Body Start --------*/
+*{
+    color: #777777;
+    font-family: sans-serif;
+}
+.container1 {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/*-------- syllabus --------*/
+#syllabus{
+    text-align: center;
+}
+#syllabus button{
+    font-size: 43px;
+    padding: 18px 30px;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(to left, #00ffff 0%, #4a1c77 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0 1px 7px 2px #cccccc;
+}
+/*-------- books --------*/
+/*-------- menu --------*/
+
+/*-------- menu --------*/
+.btn-seg{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-evenly;
+}
+.btn-seg button:hover{
+    box-shadow: 0 1px 5px 1px #3a54c1;
+}
+.sem-btn img{
+    width: 50%;
+}
+.sem-btn{
+    background: transparent;
+    padding: 18px 30px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.sem-btn:hover{
+    background-color: #00b3ee;
+}
+.sem-btn::after{
+    border: none;
+}
+.sem-btn a{
+    text-decoration: none;
+    color: #1b1e21;
+}
+.btn-seg button{
+    flex-basis: 25%;
+    padding: 18px 30px;
+    box-shadow: 0 1px 7px 2px #cccccc;
+}
+.previus-row, .books-row{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#feedback{
+    margin-top: 50px;
+}
+.form-row{
+    display: flex;
+    max-width: 100%;
+}
+form{
+    width: 100%;
+    margin: 30px 0;
+}
+form input, textarea{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #fab3c4;
+}
+label{
+    display: flex;
+}
+.input{
+    text-align: right;
+}
+.text{
+    width: 100%;
+    height: 150px;
+}
+.form-margin{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.form-margin h1{
+    color: #000000;
+    font-size: 3em;
+    text-align: center;
+}
+/*----------------*/
+/*-------- Body End --------*/
+/*----------------*//*----------------*//*----------------*/
+/*----------------*//*----------------*//*----------------*/
+/*-------- Footer Start --------*/
+#footer{
+    padding: 50px 0 30px;
+}
+.footer-row{
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+#contact h4, #important h4, #develop h4{
+    color: #fab3c4;
+}
+#contact a, #important a{
+    color: #777777;
+    text-decoration: none;
+}
+#contact span{
+    font-weight: bold;
+}
+#map-title{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid white;
+    overflow: hidden;
+}
+#map-title:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#map-title span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #77474c;
+    color: #000000;
+    opacity: .8;
+}
+#copyright{
+    background-color: #000000;
+}
+#copyright p{
+    color: #ffffff;
+    text-align: center;
+}
+/*-------- Footer end --------*/
+/*----------------*//*----------------*//*----------------*/
+/*-------- medium device --------*/
+
+/*----------------*//*----------------*//*----------------*/
+/*----------------*//*----------------*//*----------------*/
+/*-------- small device --------*/
+@media (max-width: 767px) {
+    .logo-img{
+        width: 200px;
+    }
+}
+/*----------------*//*----------------*//*----------------*/
+/*----------------*//*----------------*//*----------------*/
+/*-------- extra small device --------*/
+@media (max-width: 567px) {
+
+}

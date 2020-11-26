@@ -1,0 +1,74 @@
+*{
+}
+#sem1{
+    border-radius: 0;
+    border: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#book-list{
+    display: flex;
+}
+.sem-row{
+    max-width: 100%;
+    max-height: fit-content;
+    justify-content: space-between;
+}
+.sem-row img{
+    max-height: 200px;
+    margin-right: 20px;
+}
+.sem-row h4{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+#book-list2{
+    display: flex;
+}
+#book-list2 h4{
+    margin-top: 40px;
+}
+#sem1 button{
+    background: linear-gradient(to bottom, #26114b 0%, #c1868e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#sem1 h3{
+    font-weight: bolder;
+    font-family: "Times New Roman", serif;
+}
+.image{
+    margin: 25px 10%;
+    text-align: center;
+}
+.image h1, #question h2{
+    font-size: 4em;
+    font-family: "Times New Roman", serif;
+    background: linear-gradient(to bottom, #26114b 0%, #c1868e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.id{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.id img:hover{
+    box-shadow: 0 1px 7px 2px #cccccc;
+    transform: scale(1.5);
+}
+#left, #right{
+    place-items: center;
+}
+.id img{
+    float: left;
+}
+.id a{
+    text-decoration: none;
+}
+#question{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+}

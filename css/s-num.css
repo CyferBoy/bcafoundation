@@ -1,0 +1,170 @@
+.margin{
+    margin-top: 100px;
+}
+.left a{
+    -webkit-transform: rotate(-45deg);
+}
+.left a:hover{
+    color: #000000;
+    text-decoration: none;
+    transform: scale(1.3);
+}
+.left, .right, .right1, .left1{
+    flex-basis: 50%;
+}
+.right{
+    float: right;
+}
+#books .left img{
+    width: 100%;
+}
+.left1 img, .right1 img{
+    width: 100%
+}
+#previus{
+    margin-top: 100px;
+}
+.s1{
+    position: absolute;
+    bottom: -39%;
+    left: 18%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s2{
+    position: absolute;
+    bottom: -40%;
+    left: 28%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s3{
+    position: absolute;
+    bottom: -58%;
+    left: 32.5%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s4{
+    position: absolute;
+    bottom: -76%;
+    left: 27%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s5{
+    position: absolute;
+    bottom: -74%;
+    left: 16%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s6{
+    position: absolute;
+    bottom: -56%;
+    left: 12%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s01{
+    position: absolute;
+    bottom: -167%;
+    right: 36%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s02{
+    position: absolute;
+    bottom: -167%;
+    right: 24%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s03{
+    position: absolute;
+    bottom: -167%;
+    right: 10%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s04{
+    position: absolute;
+    bottom: -193%;
+    right: 10%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s05{
+    position: absolute;
+    bottom: -193%;
+    right: 23%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.s06{
+    position: absolute;
+    bottom: -193%;
+    right: 36%;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+.right1 a:hover{
+    text-decoration: none;
+    color: #000000;
+    transform: scale(1.3);
+}
+.left1 h3{
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: "Times New Roman", serif;
+    background: linear-gradient(to left, #d088f8 0%, #11137a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.right h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: "Times New Roman", serif;
+    background: linear-gradient(to right, #ffe8a7 0%, #ff7825 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.def{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: right;
+}
+.def p, .def1 p{
+    font-size: large;
+    font-family: "Baskerville Old Face", serif;
+}
+.def1{
+    margin-left: 100px;
+}
+.features{
+    margin-top: 70px;
+}
+.features-col{
+    align-items: center;
+    text-align: center;
+}
+.features-col img{
+    width: 100px;
+}
+.features-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
